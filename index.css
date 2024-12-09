@@ -1,0 +1,31 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #eef2f3, #8e9eab);
+  color: #333;
+}
+
+/* Header */
+header h1 {
+  font-size: 40px;
+  color: #0056b3;
+  margin: 0;
+}
+
+/* Buttons */
+button, a {
+  transition: transform 0.2s ease;
+}
+
+button:hover, a:hover {
+  transform: scale(1.1); /* Hover effect for buttons */
+}
+
+/* Footer */
+footer {
+  font-size: 16px;
+  background: #f9f9f9;
+  color: #333;
+}
